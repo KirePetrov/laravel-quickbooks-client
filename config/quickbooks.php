@@ -91,6 +91,7 @@ return [
             'owner' => 'id',
         ],
         'model' => User::class,
+        'guard' => 'web',
     ],
 
 ];
